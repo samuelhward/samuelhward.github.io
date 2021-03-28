@@ -8,15 +8,16 @@ markdown:            kramdown
 highlighter:         rouge
 permalink:           none
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+github:              [metadata]
 
 sass:
   sass_dir: assets/css
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Millennial"
+title:		           "Samuel Ward"
 description:	       "a Jekyll theme for running a blog or publication"
-author:              "Paul Le"
+author:              "Samuel Ward"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
