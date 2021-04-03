@@ -4,7 +4,7 @@ title: "python packaging"
 author: "Samuel Ward"
 categories: thoughts
 tags: [draft]
-image: pic1.jpg
+image: python_packaging.png
 ---
 
 Some text
