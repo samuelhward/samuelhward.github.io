@@ -10,7 +10,6 @@ menu:
 - {name: 'Thoughts', folder: 'pages', file: 'thoughts.html'}
 - {name: 'Feelings', folder: 'pages', file: 'feelings.html'}
 - {name: 'About', folder: 'pages', file: 'about.html'}
-- {name: 'Contact', folder: 'pages', file: 'contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
