@@ -58,4 +58,4 @@ Re-installing in developer mode will then re-install dependencies.
 
 Use ```setuptools```. Here you will define a setup.py file which allows pip to install your package. If you edit the setup.py then you will need to re-install the package.
 
-Unlike with ```pip freeze```, you will have to manually define the packages in the setup.py file.
+Unlike with ```pip freeze```, you will have to manually define the packages in the setup.py file (you _could_ automate this process but it's not recommended, since `requirements.txt` and `setup.py` are technically doing different things).
