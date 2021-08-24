@@ -61,7 +61,7 @@ What fuels these bottom-up approaches?
 
 ## Re-organise according to the narrative
 
-The nice thing about nested bulleted lists is that, even during writing, it's easy to identify sections that might belong elsewhere and lift them out/move them.
+The nice thing about nested bulleted lists is that, even during writing, it's easy to identify sections that might belong elsewhere and lift them out/move them. Forcing yourself to write down the ideas in a bulleted list often helps you to think about the narrative flow before you've even started writing, and saves you from endlessly going back to editing prose to make sure they flow - which breaks up your own flow.
 
 ## Connect the dots
 
