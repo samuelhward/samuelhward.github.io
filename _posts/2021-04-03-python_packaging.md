@@ -46,7 +46,7 @@ Now, working on an installed version of your project such that changes are displ
 pip install -e .
 ```
 
-Note you still need to restart Python or reload the package. You can uninstall the package your working on from the virtual environment using:
+Note you still need to restart Python or reload the package. You can uninstall the package you're working on from the virtual environment using:
 
 ```shell
 pip uninstall some_package
