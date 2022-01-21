@@ -54,15 +54,15 @@ pip uninstall some_package
 
 Re-installing in developer mode will then re-install dependencies.
 
-### Distributing/Installing Your Package
+### Distributing/installing your package
 
 Use ```setuptools```. Here you will define a setup.py file which allows pip to install your package. If you edit the setup.py then you will need to re-install the package.
 
 Unlike with ```pip freeze```, you will have to manually define the packages in the setup.py file (you _could_ automate this process but it's not recommended, since `requirements.txt` and `setup.py` are technically doing different things).
 
-### Using Your Package/Environment As A Jupyter Kernel
+### Using your Python environment to create a Jupyter kernel
 
-After activating your ```venv```, you need to re-install the ipykernel package:
+After activating your ```venv```, you _may_ need to re-install the ipykernel package:
 
 ```shell
 pip install --user ipykernel
@@ -74,7 +74,7 @@ Then use that package to install a new kernel that uses your venv for Jupyter:
 python -m ipykernel install --user --name=venv
 ```
 
-Too see a list of available kernels:
+To see a list of available kernels:
 
 ```shell
 jupyter kernelspec list
