@@ -70,3 +70,5 @@ A nice way to enforce this is to make the first sentence of each paragraph compl
 Equally, the last sentence of a paragraph can also be used to link the next paragraph with what you're about to say - often by referring to the content of the two paragraphs directly.
 
 > an example from my paper here
+
+> writing tip is to actually write everything into the plan first, that way you can swap things around, and by the time it comes to then translating that into the words on the page you've essentially done one round of proof-reading
