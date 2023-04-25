@@ -9,6 +9,10 @@ image: pic1.png
 
 # How to make this blog
 
+## Intro
+
+Warning: there is currently a big mess in how this stuff is installed if you're running Ubuntu. I show a work around here - hopefully the community will sort it soon.
+
 ## Installation
 
 Begin by installing Ruby, with Jekyll and Bundler
@@ -28,12 +32,12 @@ gem install jekyll bundler
 [[1]](https://jekyllrb.com/docs/installation/ubuntu/)
 
 
-OK, now realise that github pages only works with Ruby v2.7 since Jekyll 3 ... 
+OK, now realise that github pages only works with Ruby v2.7 since latest Jekyll and Ruby do not get along ... so need a Ruby version manager: 
 
 ``` bash
 gpg2 --keyserver keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 
-\curl -sSL https://get.rvm.io | bash -s stable
+\curl -sSL https://get.rvm.io | bash -s stable --auto-dotfiles
 
 rvm install 2.7
 ```
@@ -41,7 +45,7 @@ rvm install 2.7
 [[2]](https://stackoverflow.com/questions/37315192/how-to-downgrade-ruby-version-on-ubuntu)
 [[3]](https://rvm.io/)
 
-But I run Ubuntu 22.04, which does not like RVM. Use rbenv instead.
+But I run Ubuntu 22.04, which uses OpenSSL 3.0 which does not like Ruby 2.7. The only fix has been implemented via rbenv [[here]](https://github.com/rbenv/ruby-build/pull/1974#issue-1231997356), so now use that instead.
 
 ``` bash
 sudo apt install rbenv
@@ -49,7 +53,21 @@ rbenv install 2.7.0 # <--- failing here
 
 ```
 
-[[4]](https://github.com/rbenv/ruby-build/pull/1974#issue-1231997356)
+OK so instead, go back to RVM. It turns out you can just install a new version of Ruby and use the version of OpenSSL within it.
+
+```bash
+rvm pkg install openssl
+rvm install 2.7.6 --with-openssl-dir=$HOME/.rvm/usr
+/bin/bash --login # at this point, need to enter a login shell 
+rvm use 2.7.6 
+ruby -v # check which version is activated 
+bundle install
+bundle exec jekyll serve
+# navigate to http://localhost:4000/ to see your blog!
+
+```
+
+[[4]](https://stackoverflow.com/questions/72179373/cant-install-ruby-via-rvm-error-running-rvm-make-j4-on-ubuntu-22-04)
 
 
 ## Theme
