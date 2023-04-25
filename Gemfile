@@ -30,3 +30,4 @@ gem 'jekyll-seo-tag'
 
 # Update to latest kramdown
 gem "kramdown", ">= 2.3.1"
+gem "webrick", "~> 1.8"
