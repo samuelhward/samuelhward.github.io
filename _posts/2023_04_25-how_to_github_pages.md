@@ -67,7 +67,7 @@ bundle exec jekyll serve
 
 ```
 
-[[4]](https://stackoverflow.com/questions/72179373/cant-install-ruby-via-rvm-error-running-rvm-make-j4-on-ubuntu-22-04)
+[[4]](https://stackoverflow.com/questions/72179373/cant-install-ruby-via-rvm-error-running-rvm-make-j4-on-ubuntu-22-04)[[5]](https://rvm.io/rvm/basics)
 
 
 ## Theme
