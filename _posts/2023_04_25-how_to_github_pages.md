@@ -58,10 +58,10 @@ OK so instead, go back to RVM. It turns out you can just install a new version o
 ```bash
 rvm pkg install openssl
 rvm install 2.7.6 --with-openssl-dir=$HOME/.rvm/usr
+bundle install
 /bin/bash --login # at this point, need to enter a login shell 
 rvm use 2.7.6 
 ruby -v # check which version is activated 
-bundle install
 bundle exec jekyll serve
 # navigate to http://localhost:4000/ to see your blog!
 
