@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python Packaging"
+title: "Python packaging"
 author: "Samuel Ward"
 categories: thoughts
 tags: [python,programming,git,packaging,distro,distribution,jupyter]
