@@ -3,7 +3,7 @@ layout: post
 title: "Python Packaging"
 author: "Samuel Ward"
 categories: thoughts
-tags: [draft]
+tags: [python,programming,git,packaging,distro,distribution,jupyter]
 image: leaves.jpg
 ---
 
