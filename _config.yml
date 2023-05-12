@@ -16,7 +16,7 @@ sass:
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "sounds of mind"
-description:	       "Some thoughts and feelings"
+description:	       "some thoughts and feelings"
 author:              "Samuel"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
