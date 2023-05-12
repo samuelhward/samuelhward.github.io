@@ -4,7 +4,7 @@ title: "Python Packaging"
 author: "Samuel Ward"
 categories: thoughts
 tags: [draft]
-image: python_packaging.png
+image: leaves.jpg
 ---
 
 ## Developing Python packages
