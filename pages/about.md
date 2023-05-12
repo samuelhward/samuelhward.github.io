@@ -3,4 +3,6 @@ layout: misc
 title: About
 ---
 
-I aim to write posts that are typically content-agnostic, that aim to answer or discuss the title regardless of how it's specifically achieved.
+Hi.
+
+I don't have much of an aim here. Just to express, to learn, to escape, to remind, to reset.
