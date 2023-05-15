@@ -76,16 +76,19 @@ There might not be a natural overlap though - you might not be able to combine d
 The advantage of this method is that it's visual, comprehensive, and it's very efficient.
 
 Visual:
-    - Columns denote working themes and individual projects you can focus on without changing context
-    - Rows give you the plan of each deliverable; if you're writing an essay then this method gives you the plan automatically.
+
+- Columns denote working themes and individual projects you can focus on without changing context
+- Rows give you the plan of each deliverable; if you're writing an essay then this method gives you the plan automatically.
 
 Comprehensive:
-    - You can track progress of _all_ of your ongoing work in one place
-    - Extensible by just adding more projects/deliverables
+
+- You can track progress of _all_ of your ongoing work in one place
+- Extensible by just adding more projects/deliverables
 
 Efficient: 
-    - deliverables 
-    - I bet some nice sorting algorithms exist for clustering coupled activities, like design structure matrices 
+
+- deliverables are composed of the minimum set of needed actions
+- I bet some nice sorting algorithms exist for clustering coupled activities, like design structure matrices 
 
 
 Another advantage is that the actions don't technically need to refer to each other; you might have e.g. "write code that does X", "calculate Y". However, a natural order of actions arises during each project execution i.e. "write code that does X" _then_ "calculate Y".
