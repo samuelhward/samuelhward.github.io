@@ -71,7 +71,7 @@ pip install ipykernel
 Then use that package to install a new kernel that uses your venv for Jupyter: 
 
 ```shell
-python -m ipykernel install --name=venv
+python -m ipykernel install --user --name=venv
 ```
 
 To see a list of available kernels:
