@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "How to github pages"
+title: "How to make this blog"
 author: "Samuel Ward"
 categories: thoughts
 tags: [draft]
 image: shutters.jpg
 ---
 
-# How to make this blog
+# How to github pages
 
 ## Introduction
 
