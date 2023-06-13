@@ -46,7 +46,7 @@ Now, working on an installed version of your project such that changes are displ
 pip install -e .
 ```
 
-Note you still need to restart Python or reload the package. You can uninstall the package you're working on from the virtual environment using:
+Which will install the package in "developer mode" - so long as a ```setup.py``` file has been created (see below, alternatively you can specify the path to the directory containing that file instead). Note you still need to restart Python or reload the package. You can uninstall the package you're working on from the virtual environment using:
 
 ```shell
 pip uninstall some_package
@@ -65,13 +65,13 @@ Unlike with ```pip freeze```, you will have to manually define the packages in t
 After activating your ```venv```, you _may_ need to re-install the ipykernel package:
 
 ```shell
-pip install --user ipykernel
+pip install ipykernel
 ```
 
 Then use that package to install a new kernel that uses your venv for Jupyter: 
 
 ```shell
-python -m ipykernel install --user --name=venv
+python -m ipykernel install --name=venv
 ```
 
 To see a list of available kernels:
